@@ -1,0 +1,71 @@
+.table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .table thead th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  .table {
+    width: 100%;
+    max-width: 800px; /* Limit the table width */
+    margin: 2rem auto; /* Center the table with top and bottom margin */
+    border-collapse: collapse; /* Remove space between table borders */
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #343a40; /* Text color */
+}
+
+.table thead {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+.table thead th {
+    padding: 0.75rem; /* Add padding inside header cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 2px solid #dee2e6; /* Bottom border for header */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Alternate row background for better readability */
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Row highlight on hover */
+}
+
+.table tbody td {
+    padding: 0.75rem; /* Add padding inside table cells */
+    border-bottom: 1px solid #dee2e6; /* Light border between rows */
+    text-align: left; /* Align text to the left */
+}
+
+.table tbody td:last-child {
+    text-align: center; /* Center-align the genre column for better layout */
+}
+
+.table th,
+.table td {
+    word-wrap: break-word; /* Allow text to wrap inside cells */
+    word-break: break-word; /* Prevent overflow for long words */
+}

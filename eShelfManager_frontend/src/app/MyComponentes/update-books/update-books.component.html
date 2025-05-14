@@ -1,0 +1,22 @@
+<br>
+<h4 class="text-center">Update Book</h4>
+<br>
+<form (ngSubmit)="onSubmit()" class="container">
+    <div class="mb-3">
+        <label for="isbn" class="form-label">Isbn</label>
+        <input type="text" class="form-control" id="isbn" name="isbn" [(ngModel)]="book.isbn">
+      </div>
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="title" [(ngModel)]="book.title">
+      </div>
+      <div class="mb-3">
+        <label for="aName" class="form-label">Author Name</label>
+        <input type="text" class="form-control" id="aName" name="aName" [(ngModel)]="book.aName">
+        </div>
+      <div class="mb-3">
+          <label for="genre" class="form-label">Genre</label>
+          <input type="text" class="form-control" id="genre" name="genre" [(ngModel)]="book.genre">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

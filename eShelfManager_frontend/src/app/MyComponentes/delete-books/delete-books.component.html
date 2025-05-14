@@ -1,0 +1,10 @@
+<br>
+<h4 class="text-center">Delete Book</h4>
+<br>
+<form (ngSubmit)="onSubmit()" class="container">
+    <div class="mb-3">
+      <label for="isbn" class="form-label">Isbn</label>
+      <input type="text" class="form-control" id="isbn" name="isbn" [(ngModel)]="book.title">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
